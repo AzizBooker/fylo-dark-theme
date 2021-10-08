@@ -1,0 +1,28 @@
+h1,h2,h3,h4,p,a{
+    font-family: 'Open Sans', sans-serif;
+    color:$white
+}
+h1{
+    font-size: 2.1875rem;
+}
+
+
+a {
+  text-decoration: none;
+  transition: ease-in;
+  color: $gray;
+  &:hover {
+      color:$white
+  }
+}
+
+.wrapper {
+  background-color: $darkBlue;
+  margin-right: 4.8125rem;
+  margin-left: 4.8125rem;
+  margin-top: 4.375rem;
+}
+
+.fullpage-wrapper{
+    height: 100vh;
+}

@@ -1,0 +1,62 @@
+h1, h2, h3, h4, p, a {
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+}
+
+h1 {
+  font-size: 2.1875rem;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: ease-in;
+  transition: ease-in;
+  color: #d9d9d9;
+}
+
+a:hover {
+  color: white;
+}
+
+.wrapper {
+  background-color: #1c2431;
+  margin-right: 4.8125rem;
+  margin-left: 4.8125rem;
+  margin-top: 4.375rem;
+}
+
+.fullpage-wrapper {
+  height: 100vh;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 3rem;
+  font-weight: 700;
+}
+
+nav a {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.hero {
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+}
+
+.hero img {
+  width: 35rem;
+}
+
+.section2 {
+  height: 100vh;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
