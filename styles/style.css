@@ -29,6 +29,24 @@ a:hover {
   height: 100vh;
 }
 
+#bg-curvy-desktop {
+  z-index: -1;
+  position: absolute;
+  right: 0rem;
+  margin: auto 0;
+  width: 120vw;
+}
+
+.dark-background-wrapper {
+  position: absolute;
+  left: 0;
+  z-index: -1;
+  margin-top: 20rem;
+  width: 100rem;
+  background-color: #181f2a;
+  height: 180vh;
+}
+
 nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -95,6 +113,7 @@ nav a {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  margin-bottom: 6rem;
 }
 
 .section3 a {
@@ -119,6 +138,9 @@ nav a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 2rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
 }
 
 .testimonial h3,
@@ -140,5 +162,18 @@ nav a {
   background-color: #202a3c;
   padding: 1rem 1rem;
   border-radius: 0.5rem;
+}
+
+.testimonial-item-profile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.testimonial-item-profile img {
+  margin-right: 0.6rem;
+  border-radius: 100rem;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 /*# sourceMappingURL=style.css.map */

@@ -26,3 +26,20 @@ a {
 .fullpage-wrapper{
     height: 100vh;
 }
+
+#bg-curvy-desktop{
+    z-index: -1;
+    position: absolute;
+    right: 0rem;
+    margin: auto 0;
+    width: 120vw;
+}
+.dark-background-wrapper{
+position: absolute;
+left: 0;
+z-index: -1;
+margin-top: 20rem;
+ width: 100rem;
+  background-color: $darkBlueBackground;
+  height: 180vh;
+}
