@@ -1,0 +1,23 @@
+.testimonial {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  h3,
+  h4 {
+    padding: 0rem 0rem;
+    margin: 0rem 0rem;
+  }
+  h3 {
+    font-size: 1.1rem;
+  }
+  h4 {
+    font-size: 0.6rem;
+    color: $gray;
+  }
+  &-item {
+    background-color: $darkBlueTestimonial;
+    padding: 1rem 1rem;
+    border-radius: 0.5rem;
+  }
+}
