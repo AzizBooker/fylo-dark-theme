@@ -11,6 +11,10 @@ h1 {
   font-size: 2.1875rem;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 button {
   border: none;
 }
@@ -40,6 +44,10 @@ a:hover {
 
 .fullpage-wrapper {
   height: 100vh;
+}
+
+.mostly-fullpage-wrapper {
+  height: 90vh;
 }
 
 #bg-curvy-desktop {
@@ -190,6 +198,8 @@ nav a {
 }
 
 .section4 {
+  position: relative;
+  top: 7rem;
   background-color: #202a3c;
   border-radius: .5rem;
   padding-top: .6rem;
@@ -237,5 +247,37 @@ nav a {
 
 .section4 p {
   color: #d9d9d9;
+}
+
+footer {
+  padding-top: 10rem;
+  padding-bottom: 1rem;
+}
+
+footer .footer-m {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .footer-col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  width: 15%;
 }
 /*# sourceMappingURL=style.css.map */

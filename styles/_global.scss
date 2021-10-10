@@ -9,7 +9,9 @@ h1,h2,h3,h4,p,a,button{
 h1{
     font-size: 2.1875rem;
 }
-
+body{
+  overflow-x: hidden;
+}
 button{
   border:none;
   &:focus{
@@ -39,7 +41,9 @@ a {
 .fullpage-wrapper{
     height: 100vh;
 }
-
+.mostly-fullpage-wrapper{
+  height: 90vh;
+}
 #bg-curvy-desktop{
     z-index: -1;
     position: absolute;
