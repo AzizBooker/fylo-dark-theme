@@ -1,10 +1,23 @@
-h1, h2, h3, h4, p, a {
+h1, h2, h3, h4, p, a, button {
   font-family: 'Open Sans', sans-serif;
   color: white;
+  -webkit-transition: ease-in-out;
+  transition: ease-in-out;
+  -webkit-transition-duration: 300ms;
+          transition-duration: 300ms;
 }
 
 h1 {
   font-size: 2.1875rem;
+}
+
+button {
+  border: none;
+}
+
+button:focus {
+  border: none;
+  outline: none;
 }
 
 a {
@@ -41,10 +54,10 @@ a:hover {
   position: absolute;
   left: 0;
   z-index: -1;
-  margin-top: 20rem;
+  margin-top: 10rem;
   width: 100rem;
   background-color: #181f2a;
-  height: 180vh;
+  height: 250vh;
 }
 
 nav {
@@ -113,7 +126,6 @@ nav a {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-bottom: 6rem;
 }
 
 .section3 a {
@@ -138,7 +150,7 @@ nav a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-bottom: 2rem;
+  margin-bottom: 6rem;
   margin-right: 2rem;
   margin-left: 2rem;
 }
@@ -175,5 +187,55 @@ nav a {
   border-radius: 100rem;
   width: 2.5rem;
   height: 2.5rem;
+}
+
+.section4 {
+  background-color: #202a3c;
+  border-radius: .5rem;
+  padding-top: .6rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  text-align: center;
+}
+
+.section4_inputs {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 8%;
+  margin-left: 8%;
+}
+
+.section4 input {
+  border-radius: 5rem;
+  padding: .3rem .3rem;
+  margin-right: 1rem;
+  width: 80%;
+}
+
+.section4 button {
+  border-radius: 5rem;
+  padding: .3rem .3rem;
+  background-color: #65e2d9;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  -webkit-transition: ease-in-out;
+  transition: ease-in-out;
+}
+
+.section4 button:hover {
+  background-color: #90eae4;
+}
+
+.section4 p {
+  color: #d9d9d9;
 }
 /*# sourceMappingURL=style.css.map */

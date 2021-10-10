@@ -1,11 +1,24 @@
-h1,h2,h3,h4,p,a{
+
+h1,h2,h3,h4,p,a,button{
     font-family: 'Open Sans', sans-serif;
-    color:$white
+    color:$white;
+    transition: ease-in-out;
+    transition-duration: 300ms;
+    
 }
 h1{
     font-size: 2.1875rem;
 }
 
+button{
+  border:none;
+  &:focus{
+    border: none;
+    outline: none;
+  }
+
+  
+}
 
 a {
   text-decoration: none;
@@ -38,8 +51,8 @@ a {
 position: absolute;
 left: 0;
 z-index: -1;
-margin-top: 20rem;
+margin-top: 10rem;
  width: 100rem;
   background-color: $darkBlueBackground;
-  height: 180vh;
+  height: 250vh;
 }
