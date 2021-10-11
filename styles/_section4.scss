@@ -10,7 +10,7 @@
     margin-left: 15vw;
     margin-right: 15vw;
     text-align: center;
-    @include breakpoint-down('small'){
+    @include breakpoint-down('medium'){
         margin-left: 5vw;
         margin-right:5vw ;
     }
@@ -20,7 +20,7 @@
         justify-content: center;
         margin-right: 8%;
         margin-left: 8%;
-        @include breakpoint-down('small'){
+        @include breakpoint-down('medium'){
             flex-direction: column;
             align-items: center;
         }
@@ -31,7 +31,7 @@
         padding: .3rem .3rem;
         margin-right: 1rem;
         width: 80%;
-        @include breakpoint-down('small'){
+        @include breakpoint-down('medium'){
             width: 60%;
             margin-right: 0rem;
             margin-bottom: 1rem;
@@ -46,7 +46,7 @@
         &:hover{
             background-color: $cyan;
         }
-        @include breakpoint-down('small'){
+        @include breakpoint-down('medium'){
             width: 60%;
             padding: 1rem 1rem;
         }

@@ -47,7 +47,7 @@ var tl5=gsap.timeline({
     scrollTrigger:{
         trigger:".section4",
         start:"top 60%",
-        markers: {startColor: "green", endColor: "red", fontSize: "12px"}
+       // markers: {startColor: "green", endColor: "red", fontSize: "12px"}
     }
 })
 
