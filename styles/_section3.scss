@@ -1,9 +1,28 @@
 .section3{
 display: flex;
 flex-direction: row;
-    a{
+
+    &-arrow-link{
+        display: flex;
+        width: 11rem;
+        border-bottom: 1px solid $blue;
         color: $blue;
-        text-decoration: underline;
+        &:hover{
+            color: $white;
+            border-bottom: 1px solid $white;
+            a{
+                color: $white;
+            }
+        }
+
+        img{
+            margin-left: .2rem;
+            object-fit: contain;
+        }
+    }    
+    a{
+       color: $blue;
+      
     }
     &_text{
         align-self: center;

@@ -1,10 +1,25 @@
 footer{
    padding-top: 10rem;
    padding-bottom: 1rem;
+   p{
+      color: $gray;
+      &:hover{
+         color: $white;
+      }
+   }
+
+   .footer-img{
+      margin-top: 1.2rem;
+      margin-right: 1rem;
+      width: 1.2rem;
+      height: 1.2rem;
+      object-fit: contain;
+   }
    .footer-m{
       display: flex;
    flex-direction: row;
    justify-content: space-between;
+   margin-top: 3rem;
    }
    .footer-col{
       display: flex;
@@ -14,6 +29,15 @@ footer{
 
 
       &-social{
+         margin-top: 1rem;
+         width: 6rem;
+        
+         flex-direction: row;
+         justify-content: space-around;
+         color: $gray;
+         i:hover{
+            color: $white;
+         }
       }
    }
 
