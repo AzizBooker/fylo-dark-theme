@@ -129,7 +129,7 @@ a:hover {
   position: absolute;
   left: 0;
   z-index: -1;
-  margin-top: 10rem;
+  margin-top: 1rem;
   width: 100rem;
   background-color: #181f2a;
   height: 250vh;
@@ -330,6 +330,7 @@ nav a {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  margin-left: 1rem;
 }
 
 .testimonial {
