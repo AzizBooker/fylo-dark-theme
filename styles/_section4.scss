@@ -10,12 +10,20 @@
     margin-left: 15vw;
     margin-right: 15vw;
     text-align: center;
+    @include breakpoint-down('small'){
+        margin-left: 5vw;
+        margin-right:5vw ;
+    }
     &_inputs{
         margin-top: 2rem;
         display: flex;
         justify-content: center;
         margin-right: 8%;
         margin-left: 8%;
+        @include breakpoint-down('small'){
+            flex-direction: column;
+            align-items: center;
+        }
         
     }
     input{
@@ -23,6 +31,12 @@
         padding: .3rem .3rem;
         margin-right: 1rem;
         width: 80%;
+        @include breakpoint-down('small'){
+            width: 60%;
+            margin-right: 0rem;
+            margin-bottom: 1rem;
+            padding: .8rem .5rem;
+        }
     }
     button{
         
@@ -31,6 +45,10 @@
         transition: ease-in-out;
         &:hover{
             background-color: $cyan;
+        }
+        @include breakpoint-down('small'){
+            width: 60%;
+            padding: 1rem 1rem;
         }
     }
     p{

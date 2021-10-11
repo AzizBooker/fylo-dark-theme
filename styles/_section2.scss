@@ -6,10 +6,27 @@
   height: 100vh;
   width: 100%;
   text-align: center;
+  @include breakpoint-down("small"){
+    margin-top: 5rem;
+    flex-direction: column;
+    height: auto;
+    margin-bottom: 5rem;
+  }
+  img{
+    @include breakpoint-down('small'){
+      object-fit: contain;
+      width: 4rem;
+    }
+  }
   &-item {
     margin-bottom: 4rem;
     margin-top: 4rem;
     padding: 1rem 1rem 1rem 1rem;
+    @include breakpoint-down('small'){
+      margin-top: 1rem;
+      margin: bottom .6rem;;
+      padding: .2rem .2rem .2rem .2rem;
+    }
     
   }
 

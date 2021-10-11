@@ -1,11 +1,14 @@
 footer{
    padding-top: 10rem;
    padding-bottom: 1rem;
+   @include breakpoint-down('small'){
+   }
    p{
       color: $gray;
       &:hover{
          color: $white;
       }
+      
    }
 
    .footer-img{
@@ -14,18 +17,29 @@ footer{
       width: 1.2rem;
       height: 1.2rem;
       object-fit: contain;
+
+   
    }
    .footer-m{
       display: flex;
    flex-direction: row;
    justify-content: space-between;
    margin-top: 3rem;
+   @include breakpoint-down('small'){
+      flex-direction: column;
+      justify-content: center;
+   }
    }
    .footer-col{
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
       width: 15%;
+      @include breakpoint-down('small'){
+         margin-bottom: 1.3rem;
+         width: 100%;
+         justify-content: center;
+      }
 
 
       &-social{
@@ -35,6 +49,7 @@ footer{
          flex-direction: row;
          justify-content: space-around;
          color: $gray;
+
          i:hover{
             color: $white;
          }

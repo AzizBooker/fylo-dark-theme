@@ -12,6 +12,14 @@ button {
 }
 h1 {
   font-size: 2.1875rem;
+  @include breakpoint-down('small'){
+    font-size: 1.7rem;
+  }
+}
+p{
+  @include breakpoint-down('small'){
+    font-size: .9rem;
+  }
 }
 body {
   overflow-x: hidden;
@@ -22,12 +30,16 @@ button {
   padding: 0.3rem 0.3rem;
   background-color: $blue;
   color: $white;
+  @include breakpoint-down('small'){
+    padding: .2rem .2rem;
+    width: 90%;
+  }
   &:focus {
     border: none;
     outline: none;
   }
   &:hover{
-    color:$cyan;
+    background-color:$cyan;
   }
 }
 
@@ -35,6 +47,9 @@ a {
   text-decoration: none;
   transition: ease-in;
   color: $gray;
+  @include breakpoint-down('small'){
+    font-size: 1rem;
+  }
   &:hover {
     color: $white;
   }
@@ -45,6 +60,11 @@ a {
   margin-right: 4.8125rem;
   margin-left: 4.8125rem;
   margin-top: 4.375rem;
+  @include breakpoint-down('small'){
+    margin-right: 1.1rem;
+    margin-left: 1.1rem;
+    margin-top: 2rem;
+  }
 }
 
 .fullpage-wrapper {
@@ -77,4 +97,7 @@ a {
   width: 100rem;
   background-color: $darkBlueBackground;
   height: 250vh;
+  @include breakpoint-down("small"){
+    height: 200vh;
+  }
 }

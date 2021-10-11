@@ -5,6 +5,11 @@
   margin-bottom: 6rem;
   margin-right: 2rem;
   margin-left: 2rem;
+  @include breakpoint-down('small'){
+    flex-direction: column;
+    margin-bottom: 4rem;
+
+  }
   h3,
   h4 {
     padding: 0rem 0rem;
@@ -17,10 +22,19 @@
     font-size: 0.6rem;
     color: $gray;
   }
+  p{
+  
+    @include breakpoint-down('small'){
+      width: 100%;
+    }
+  }
   &-item {
     background-color: $darkBlueTestimonial;
     padding: 1rem 1rem;
     border-radius: 0.5rem;
+    @include breakpoint-down('small'){
+      margin-top: 2rem;
+    }
     &-profile {
       display: flex;
       img {

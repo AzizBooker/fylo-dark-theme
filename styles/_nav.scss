@@ -7,5 +7,14 @@ nav{
         margin-left: 1rem;
         margin-right: 1rem;
     }
+    @include breakpoint-down('small'){
+        height: auto;
+    }
     
+}
+#nav-logo{
+    @include breakpoint-down('small'){
+    width: 7rem;
+    object-fit: contain;
+    }
 }
