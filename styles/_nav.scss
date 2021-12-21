@@ -1,6 +1,7 @@
 nav{
     display:flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 3rem;
     font-weight: 700;
     a{
@@ -11,10 +12,22 @@ nav{
         height: auto;
     }
     
+    
 }
 #nav-logo{
+    width: 12rem;
     @include breakpoint-down('small'){
     width: 7rem;
     object-fit: contain;
     }
+    @include breakpoint-down('medium'){
+        
+        object-fit: contain;
+    }
+}
+.nav_bars{
+    color:$white;
+    transform: scale(1.7);
+    margin-right: 2rem;
+    
 }

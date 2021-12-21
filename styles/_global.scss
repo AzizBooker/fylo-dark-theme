@@ -106,3 +106,26 @@ a {
     height: 200vh;
   }
 }
+
+
+.hide-for-desktop{
+  @include breakpoint-up('large'){
+      display: none  !important;
+  }
+}
+
+.hide-for-mobile{
+  @include breakpoint-down('medium'){
+      display: none  !important;
+  }
+}
+
+.no-scroll{
+  overflow: hidden;
+  &-x{
+      overflow-x: hidden;
+  }
+  &-y{
+      overflow-y: hidden;
+  }
+}
