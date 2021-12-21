@@ -78,7 +78,7 @@ a:hover {
   background-color: #1c2431;
   margin-right: 4.8125rem;
   margin-left: 4.8125rem;
-  margin-top: 4.375rem;
+  margin-top: 2rem;
 }
 
 @media (max-width: 63.9375em) {
@@ -227,6 +227,7 @@ nav a {
   margin: 0 auto;
   text-align: center;
   height: 100vh;
+  padding-bottom: 2rem;
 }
 
 @media (max-width: 39.9375em) {

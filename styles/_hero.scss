@@ -2,6 +2,7 @@
     margin: 0 auto;
     text-align: center;
     height: 100vh;
+    padding-bottom: 2rem;
     @include breakpoint-down('small'){
         height: 80vh;
     }
